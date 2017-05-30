@@ -7,9 +7,9 @@ alert("Wynik sprawdź w konsoli :)")
 console.log(value);
 
 if (value > 0) {
-	console.log("Wynik dzialania (a * a) + (2 * a * b) - (b * b) dla a: " + a + " i b: " + b + " wynosi: " + value + " i jest dodatni");
+	console.log("Wynik dzialania (a * a) + (2 * a * b) - (b * b) dla a: " + a + " i b: " + b + " jest dodatni i wynosi: " + value);
 } else if (value < 0) {
-   console.log("Wynik dzialania (a * a) + (2 * a * b) - (b * b) dla a: " + a + " i b: " + b + " wynosi:" + value + " i jest ujemny");
+   console.log("Wynik dzialania (a * a) + (2 * a * b) - (b * b) dla a: " + a + " i b: " + b + " jest ujemny i wynosi: " + value);
 } else if (value = 0) {
 	console.log("Wynik dzialania (a * a) + (2 * a * b) - (b * b) dla a: " + a + " i b: " + b + "  wynosi 0");
 } else {
