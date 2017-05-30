@@ -8,13 +8,10 @@ console.log(value);
 
 if (value > 0) {
 	console.log("Wynik dzialania (a * a) + (2 * a * b) - (b * b) dla a: " + a + " i b: " + b + " wynosi: " + value + " i jest dodatni");
-}
-	else if (value < 0) {
+} else if (value < 0) {
    console.log("Wynik dzialania (a * a) + (2 * a * b) - (b * b) dla a: " + a + " i b: " + b + " wynosi:" + value + " i jest ujemny");
-}
-	else if (value = 0) {
+} else if (value = 0) {
 	console.log("Wynik dzialania (a * a) + (2 * a * b) - (b * b) dla a: " + a + " i b: " + b + "  wynosi 0");
-}
-else {
+} else {
 console.log("Nie podano liczb. Spróbuj ponownie :)");
 }
