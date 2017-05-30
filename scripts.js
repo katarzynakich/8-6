@@ -6,12 +6,15 @@ var value = (a * a) + (2 * a * b) - (b * b);
 alert("Wynik sprawdź w konsoli :)");
 console.log(value);
 
-if (value > 0) {
+if ((a == "") || (b == "")) {
+  console.log("Nie podano liczb. Spróbuj ponownie :)");
+}
+else if (value > 0) {
 	console.log("Wynik dzialania (a * a) + (2 * a * b) - (b * b) dla a: " + a + " i b: " + b + " jest dodatni i wynosi: " + value);
 } else if (value < 0) {
    console.log("Wynik dzialania (a * a) + (2 * a * b) - (b * b) dla a: " + a + " i b: " + b + " jest ujemny i wynosi: " + value);
 } else if (value === 0) {
 	console.log("Wynik dzialania (a * a) + (2 * a * b) - (b * b) dla a: " + a + " i b: " + b + "  wynosi 0");
 } else {
-console.log("Nie podano liczb. Spróbuj ponownie :)");
+console.log("a i/lub b nie jest liczbą. Spróbuj ponownie :)");
 }
